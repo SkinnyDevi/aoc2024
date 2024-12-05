@@ -11,9 +11,9 @@ fn main() {
     // let mut example = "MMMSXXMASM\rMSAMXMSMSA\rAMXSXMAAMM\rMSAMASMSMX\rXMASAMXAMM\rXXAMMXXAMA\rSMSMSASXSS\rSAXAMASAAA\rMAMMMXMMMM\rMXMXAXMASX";
     // example = "..X...\r.SAMX.\r.A..A.\rXMAS.S\r.X....";
 
-    let xmas_count = wordsearch::count_xmas(&contents);
-    println!("XMAS Count: {xmas_count}");
+    let xmas_count_char = wordsearch::count_xmas(&contents);
+    println!("XMAS Count: {xmas_count_char}");
 
-    let xmas_count_char = wordsearch::count_xmas_char_matrix(&contents);
-    println!("(Char) XMAS Count: {xmas_count_char}");
+    let x_mas_count = wordsearch::count_x_mas(&contents);
+    println!("X-MAS Count: {x_mas_count}");
 }
